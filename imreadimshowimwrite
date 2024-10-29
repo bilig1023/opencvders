@@ -1,0 +1,7 @@
+cv::Mat imread("Görüntünün Dosya Yolu",Görüntünün nasıl Yükleneceği Belirtilir);
+görüntünün nasıl yükleneceği belirtilir kısmına aşağıdaki değerler yazılır:
+cv::IMREAD_COLOR: Renki görüntü.
+cv::IMREAD_GRAYSCALE: Gri tonlamalı görüntü.
+cv::IMREAD_UNCHANGED: Görüntüyü alfa kanalıyla birlikte yükler.
+
+cv::imshow(" pENCEREADI",görüntü);
